@@ -17,3 +17,7 @@ class File(models.Model):
         default=False,
         help_text='статус обработки',
     )
+
+    class Meta:
+        verbose_name = 'файл'
+        verbose_name_plural = 'файлы'
